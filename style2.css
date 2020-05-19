@@ -7,7 +7,7 @@
 }
 
 body {
-  background: #333;
+  background: url('./img/girl.jpg');
   color: #fff;
   font-family: 'Roboto', sans-serif;
 }
@@ -32,15 +32,15 @@ a {
 }
 
 .container {
-  margin: 1em;
+  margin: 1em 4em;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 10px;
+  grid-gap: 15px;
 }
 
 .container > div {
   cursor: pointer;
-  height: 210px;
+  height: 180px;
   background-size: cover;
   /* background-attachment: fixed; */
 
@@ -75,10 +75,10 @@ a {
 }
 
 .bg1 {
-  background: url('./img/bg1.jpg');
+  background: -webkit-radial-gradient(37% center, circle, rgba(39, 52, 99,0.9) 40%, rgba(60, 56, 140, 0.9));
 }
 
 .bg2 {
-  background: url('./img/bg2.jpg');
+  background: -webkit-radial-gradient(45% center, circle, rgba(39, 184, 196,0.9) 40%, rgba(178,194,140,0.9));
   color: #333;
 }
